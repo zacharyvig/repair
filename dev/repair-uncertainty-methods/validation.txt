@@ -1,0 +1,23 @@
+Documentation audit, 2026-10-31
+
+Quarto 1.10.19 render completed without warnings after math syntax corrections.
+The report regenerates only presentation summaries, not native fits or datasets.
+
+PASS original robust bundle checksums and all 64 endpoint-based rate summaries;
+     121 -> 584 default intervals, 2349 recovered failures, 27 unresolved.
+PASS original influence bundle checksums and 17,200 endpoints / 172 rates,
+     matched contrasts, signed decomposition and OLS/public-API checks.
+PASS original fresh bundle checksums and 12,200 endpoints / 122 rates,
+     centered jackknife/uncentered HC3 covariances and original plot checks.
+PASS 96 additional plotted coverage cells independently reconstructed from
+     retained endpoints, including denominators and Wilson intervals on render.
+PASS all new coverage intervals fit the 50–100% display without clipping.
+PASS new deletion-transition strata counts and positive log-axis values.
+PASS four additional PNG plots inspected for readable labels and unclipped tails.
+PASS rendered artifact: 178 MathML expressions, including 41 display equations;
+     no MathML errors or unconverted prose fragments; 13 embedded graphics;
+     5 references; no external rendering dependencies; internal and local links.
+
+No estimator, eligibility gate, frozen study bundle or numerical result changed.
+New/source helpers: figures.R and verify-report.R.
+See README.md for reproduction commands and QA dependencies.
