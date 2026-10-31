@@ -19,6 +19,13 @@ behavior. A design draft does not make its proposed functions available.
 
 ## Implementation evidence
 
+- [Uncertainty methods walkthrough](repair-uncertainty-methods.qmd) and
+  [rendered Quarto report](repair-uncertainty-methods.html): mathematical
+  derivations of conditional, stacked/influence, leverage, delete-one and
+  bootstrap inference; separate reused/fresh simulation graphics; limitations,
+  package workflow, and priorities for further inference research.
+- [Leverage and delete-one design](leverage-jackknife-design.md): full augmented
+  equations, normalization, HC3 identity, strict failure handling and fresh study.
 - [Full influence-function inference](influence-sandwich-design.md): estimator,
   REML and cross-stage derivation, numerical audit, bootstrap/legacy comparison,
   availability limits and [verifiable study evidence](influence-simulation/README.md).

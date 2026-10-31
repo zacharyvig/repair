@@ -1,0 +1,12 @@
+"profile","transition","n","median_relative_rmse"
+"low_balanced","At least one recorded transition",42,0.834118959703585
+"low_larger","At least one recorded transition",35,0.553427087449434
+"low_negative","At least one recorded transition",29,1.32647445133354
+"low_unequal","At least one recorded transition",58,0.892038755976091
+"small_short","At least one recorded transition",30,1.06341494901926
+"high_control","No recorded transition",100,0.0115030655425295
+"low_balanced","No recorded transition",12,0.0481881951654038
+"low_larger","No recorded transition",29,0.0265119490766113
+"low_negative","No recorded transition",18,0.0454714978891802
+"low_unequal","No recorded transition",7,0.201179323499604
+"small_short","No recorded transition",15,0.099609487063718
